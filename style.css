@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.whole {
+    background-image: url("img.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.layout {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-size: 1rem;
+    padding: 20px;
+
+}
+
+.logo {
+    color: red;
+    letter-spacing: 2px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.sign-in {
+    background-color: red;
+    padding: 7px 15px;
+    color: white;
+    border: none;
+    font-weight: 700;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.sign-in:hover {
+    background-color: rgb(189, 23, 23);
+}
+
+.unlimited {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.bold {
+    font-size: small;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.last {
+    font-size: 12px;
+    font: bold;
+}
+
+.form {
+    display: flex;
+    gap: 6px;
+    padding: 5px;
+}
+
+input {
+    padding: 8px 80px;
+    text-align: left;
+    border-color: none;
+    background-color: rgba(228, 220, 220, 0.075);
+}
+
+.get-started {
+    padding: 10px 5px;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    background-color: red;
+    font-weight: 700;
+}
+footer{
+    text-align: center;
+}
